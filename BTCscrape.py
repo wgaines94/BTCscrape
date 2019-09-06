@@ -26,7 +26,7 @@ def main():
             curr = 'GBP'
             rate = jdata['bpi']['GBP']['rate_float']
 
-        conn = sqlite3.connect(r'C:\Projects\BTCscrape\crypto.db')
+        conn = sqlite3.connect(r'.\crypto.db')
     
         c = conn.cursor()
 
